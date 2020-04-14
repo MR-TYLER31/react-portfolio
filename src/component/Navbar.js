@@ -14,9 +14,14 @@ class Navbar extends Component {
   //   });
   // }
 
+  // handleAnimate() {
+  //   var header = document.getElementById("header-section");
+  //   header.style.marginLeft = "25px";
+  // }
+
   render() {
     return (
-      <nav id="nav" className="navbar navbar-expand-lg">
+      <nav id="nav" className="navbar navbar-expand-lg fixed">
         <Link
           to="/react-portfolio"
           className={
@@ -44,7 +49,7 @@ class Navbar extends Component {
             </li>
             <li className="nav-item">
               <Link
-                to="/discover"
+                to="/portfolio"
                 className={
                   window.location.pathname === "/portfolio"
                     ? "nav-link active"
