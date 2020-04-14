@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 class Navbar extends Component {
-  //   const location = useLocation();
   componentDidMount() {
     window.addEventListener("scroll", () => {
       const isTop = window.scrollY > 100;
@@ -17,37 +16,35 @@ class Navbar extends Component {
 
   render() {
     return (
-      <nav id="nav" className="navbar fixed-top navbar-expand-lg ">
-        <Link className="navbar-brand" to="/">
+      <nav id="nav" className="navbar navbar-expand-lg fixed-top">
+        <Link
+          to="/react-portfolio"
+          className={
+            window.location.pathname === "/react-portfolio" ||
+            window.location.pathname === "/react-portfolio"
+              ? "nav-link active"
+              : "nav-link"
+          }
+        >
           Tyler Snyder
         </Link>
-        <button
-          className="navbar-toggler"
-          data-toggle="collapse"
-          data-target="#navbarCollapse"
-        >
-          <span>
-            <i className="fas fa-bars"></i>
-          </span>
-        </button>
         <div className="collapse navbar-collapse" id="navbarCollapse">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
               <Link
-                to="/"
+                to="/about"
                 className={
-                  window.location.pathname === "/" ||
                   window.location.pathname === "/about"
                     ? "nav-link active"
                     : "nav-link"
                 }
               >
-                About Me
+                About
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                to="/portfolio"
+                to="/discover"
                 className={
                   window.location.pathname === "/portfolio"
                     ? "nav-link active"
@@ -59,7 +56,7 @@ class Navbar extends Component {
             </li>
             <li className="nav-item">
               <Link
-                to="/search"
+                to="/resume"
                 className={
                   window.location.pathname === "/resume"
                     ? "nav-link active"
