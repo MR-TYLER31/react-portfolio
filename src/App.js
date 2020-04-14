@@ -1,14 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Navbar from "./component/Navbar";
-import Home from "./component/Home/Home";
+import Jumbotron from "./component/Jumbotron";
+
 function App() {
   return (
     <Router>
       <div>
-        <Navbar />
-
-        <Route exact path="/react-portfolio" component={Home} />
+        <Route exact path="/react-portfolio" component={Jumbotron} />
       </div>
     </Router>
   );

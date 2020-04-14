@@ -1,12 +1,11 @@
 import React from "react";
-// import "./style.css";
 
 function Home() {
   return (
     <div id="header-section">
-      <hr />
+      <hr style={{ width: "40%", borderBottom: "5px solid #3489eb" }} />
       <h1 className="text-center">Tyler Snyder</h1>
-      <hr />
+      <hr style={{ width: "40%", borderBottom: "5px solid #3489eb" }} />
       <p></p>
     </div>
   );

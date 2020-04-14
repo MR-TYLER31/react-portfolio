@@ -2,21 +2,21 @@ import React, { Component } from "react";
 import { Link, useLocation } from "react-router-dom";
 
 class Navbar extends Component {
-  componentDidMount() {
-    window.addEventListener("scroll", () => {
-      const isTop = window.scrollY > 100;
-      const nav = document.getElementById("nav");
-      if (isTop) {
-        nav.classList.add("scrolled");
-      } else {
-        nav.classList.remove("scrolled");
-      }
-    });
-  }
+  // componentDidMount() {
+  //   window.addEventListener("scroll", () => {
+  //     const isTop = window.scrollY > 100;
+  //     const nav = document.getElementById("nav");
+  //     if (isTop) {
+  //       nav.classList.add("scrolled");
+  //     } else {
+  //       nav.classList.remove("scrolled");
+  //     }
+  //   });
+  // }
 
   render() {
     return (
-      <nav id="nav" className="navbar navbar-expand-lg fixed-top">
+      <nav id="nav" className="navbar navbar-expand-lg">
         <Link
           to="/react-portfolio"
           className={

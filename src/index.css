@@ -6,7 +6,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 150vh;
+  /* height: 150vh; */
+  background-color: #3489eb;
 }
 
 
@@ -21,9 +22,10 @@ body {
   transition: background-color 0.4s ease-out;
 }
 
+/* 
 .navbar-nav {
   margin-right: 30px;
-}
+} */
 
 .scrolled {
   position: fixed;
@@ -32,10 +34,18 @@ body {
 }
 
 #header-section {
-  background-color: white;
   margin-top: 20%;
-
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
 }
+
+.jumbotron {
+  margin: 5% auto;
+  height: 95vh;
+  width: 80%;
+  background-color: white;
+  border-radius: 50px;
+}
+
+/* footer {
+  position: fixed-bottom;
+
+} */
