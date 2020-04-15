@@ -1,14 +1,21 @@
 import React from "react";
 import { Spring } from "react-spring/renderprops";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
-import PortfolioBtn from "./PortfolioBtn";
+import Navbar from "../Navbar";
+import Footer from "../Footer";
+import PortfolioBtn from "../PortfolioBtn";
+
 import { Link, useLocation } from "react-router-dom";
 
 // window.onload = function() {
 //   var header = document.getElementById("header-section");
 //   header.style.marginLeft = "25px";
 // };
+
+const headerStyle = {
+  background: "white",
+  color: "blue",
+  padding: "1.5rem"
+};
 
 function Home() {
   return (
@@ -19,12 +26,12 @@ function Home() {
     >
       {props => (
         <div style={props}>
-          <div className="jumbotron" style={{ headerStyle }}>
+          <div className="jumbotron" style={{ headerStyle, height: "90vh" }}>
+            <Navbar />
             <div className="container">
-              <Navbar />
               <Spring
                 from={{ opacity: 0, marginTop: 100 }}
-                to={{ opacity: 1, marginTop: 300 }}
+                to={{ opacity: 1, marginTop: 200 }}
                 config={{ delay: 1000, duration: 1000 }}
               >
                 {props => (
@@ -36,7 +43,13 @@ function Home() {
                           borderBottom: "5px solid #3489eb"
                         }}
                       />
-                      <h1 className="text-center">Tyler Snyder</h1>
+                      <h1 className="text-center my-4">Tyler Snyder</h1>
+                      <p
+                        className="lead text-center"
+                        style={{ fontWeight: "bold" }}
+                      >
+                        Web Developer
+                      </p>
                       <hr
                         style={{
                           width: "40%",
@@ -50,20 +63,14 @@ function Home() {
                   </div>
                 )}
               </Spring>
-
-              <Footer />
             </div>
+
+            <Footer />
           </div>
         </div>
       )}
     </Spring>
   );
 }
-
-const headerStyle = {
-  background: "white",
-  color: "blue",
-  padding: "1.5rem"
-};
 
 export default Home;

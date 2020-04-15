@@ -18,6 +18,17 @@ body {
   box-sizing: border-box;
   padding: 12px 18px;
   transition: background-color 0.4s ease-out;
+  border-radius: 20px;
+}
+
+.nav-link {
+  font-size: 30px;
+  color: lightgrey;
+}
+
+.nav-link:hover {
+  font-size: 30px;
+  color: grey;
 }
 
 /* 
@@ -42,13 +53,49 @@ body {
 
 .jumbotron {
   margin: 5% auto;
-  height: 95vh;
-  width: 80%;
+  /* height: 100vh; */
+  padding-left: 0;
+  padding-right: 0;
+  width: 75%;
   background-color: white;
   border-radius: 50px;
 }
 
-/* footer {
-  position: fixed-bottom;
+#portfolio-btn {
+  border-radius: 30px;
+  padding: 5px 40px;
+  border: 3px solid #3489eb;
+}
 
-} */
+#portfolio-btn:hover {
+  background-color: white;
+  color: #3489eb;
+}
+
+#button-arrow {
+  color: #3489eb;
+  margin-left: 10px;
+}
+
+#skills-header {
+  background-color: #fcfcfc;
+  width: 100%;
+  padding: 50px 0;
+  margin-top: 50px;
+  border-top: 2px solid #d9dedc;
+  border-bottom: 2px solid #d9dedc;
+}
+
+#skills-header h1 {
+  margin-left: 50px;
+  font-size: 60px;
+}
+
+.card {
+  background: #3489eb;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+i {
+  /* background-color: #3489eb; */
+  color: white;
+}

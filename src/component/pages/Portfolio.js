@@ -1,13 +1,12 @@
 import React from "react";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import Navbar from "../Navbar";
+import Footer from "../Footer";
 
 function Portfolio() {
   return (
     <div className="jumbotron">
+      <Navbar />
       <div className="container">
-        <Navbar />
-
         <Footer />
       </div>
     </div>

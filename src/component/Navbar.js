@@ -31,20 +31,21 @@ class Navbar extends Component {
               : "nav-link"
           }
         >
-          Tyler Snyder
+          <span style={{ color: "black" }}>Tyler </span>
+          <span style={{ color: "#6b6e6c" }}>Snyder</span>
         </Link>
         <div className="collapse navbar-collapse" id="navbarCollapse">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
               <Link
-                to="/about"
+                to="/skills"
                 className={
-                  window.location.pathname === "/about"
+                  window.location.pathname === "/skills"
                     ? "nav-link active"
                     : "nav-link"
                 }
               >
-                About
+                Skills
               </Link>
             </li>
             <li className="nav-item">
