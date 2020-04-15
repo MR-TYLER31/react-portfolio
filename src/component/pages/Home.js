@@ -26,7 +26,7 @@ function Home() {
     >
       {props => (
         <div style={props}>
-          <div className="jumbotron" style={{ headerStyle, height: "90vh" }}>
+          <div className="jumbotron" style={{ headerStyle }}>
             <Navbar />
             <div className="container">
               <Spring
@@ -56,6 +56,7 @@ function Home() {
                           borderBottom: "5px solid #3489eb"
                         }}
                       />
+
                       <Link to="/portfolio">
                         <PortfolioBtn renderAs="button"></PortfolioBtn>
                       </Link>
@@ -64,7 +65,6 @@ function Home() {
                 )}
               </Spring>
             </div>
-
             <Footer />
           </div>
         </div>

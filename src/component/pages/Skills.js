@@ -24,7 +24,7 @@ function Skills() {
             <div className="card">
               <div className="card-body text-center">
                 <i className="fab fa-css3-alt fa-5x"></i>
-                <p>CSS3</p>
+                <p className="text-white">CSS3</p>
               </div>
             </div>
           </div>
@@ -33,7 +33,7 @@ function Skills() {
             <div className="card">
               <div className="card-body text-center">
                 <i className="fab fa-js fa-5x"></i>
-                <p>JavaScript</p>
+                <p className="text-white">JavaScript</p>
               </div>
             </div>
           </div>
@@ -44,7 +44,7 @@ function Skills() {
             <div className="card">
               <div className="card-body text-center">
                 <i className="fab fa-node fa-5x"></i>
-                <p>Node JS</p>
+                <p className="text-white">Node JS</p>
               </div>
             </div>
           </div>
@@ -53,7 +53,7 @@ function Skills() {
             <div className="card">
               <div className="card-body text-center">
                 <i className="fas fa-database  fa-5x"></i>
-                <p>MySql - NoSql</p>
+                <p className="text-white">MySql - NoSql</p>
               </div>
             </div>
           </div>
@@ -62,13 +62,13 @@ function Skills() {
             <div className="card">
               <div className="card-body text-center">
                 <i className="fab fa-react fa-5x"></i>
-                <p>React JS</p>
+                <p className="text-white">React JS</p>
               </div>
             </div>
           </div>
         </div>
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 }

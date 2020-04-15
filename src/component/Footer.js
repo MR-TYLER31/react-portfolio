@@ -2,12 +2,25 @@ import React from "react";
 
 function Footer() {
   return (
-    <div>
-      <footer className="fixed-bottom">
-        <ul>
-          <li>Home</li>
-        </ul>
-      </footer>
+    <div className="footer-container mt-5">
+      <ul className="social-list">
+        <li>
+          <a href="https://github.com/MR-TYLER31">
+            <i className="fab fa-github social"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/tyler-snyder-b6484313a/">
+            <i className="fab fa-linkedin-in social"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/Tsnyder406">
+            <i className="fab fa-twitter social"></i>
+          </a>
+        </li>
+      </ul>
+      <p className="lead text-center">Built with React JS</p>
     </div>
   );
 }

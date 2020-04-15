@@ -23,7 +23,7 @@ body {
 
 .nav-link {
   font-size: 30px;
-  color: lightgrey;
+  color: #b0b0b0;
 }
 
 .nav-link:hover {
@@ -78,7 +78,8 @@ body {
 }
 
 #skills-header {
-  background-color: #fcfcfc;
+  /* background-color: #fcfcfc; */
+  background-color: #f7f7f7;
   width: 100%;
   padding: 50px 0;
   margin-top: 50px;
@@ -95,7 +96,82 @@ body {
   background: #3489eb;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 i {
   /* background-color: #3489eb; */
   color: white;
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-right: 50px;
+  /* text-align: center; */
+  /* margin: 0 auto; */
+  /* width: 25%; */
+}
+
+.social {
+  color: #3489eb;
+  font-size: 30px;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.footer-container {
+  border-top: 2px solid #d9dedc;
+
+
+}
+
+.contact-row {
+  width: 95%;
+  margin-top: 50px;
+}
+
+.col-inner {
+  display: block;
+  align-items: center
+}
+
+.info-block {
+  position: relative;
+  text-align: left;
+  width: 90%;
+  display: table;
+  margin-left: 60px;
+  padding: 0 5px 30px 0;
+}
+
+.info-block .contact-icon {
+  position: relative;
+  display: table-cell;
+  padding: 0 10px 5px 0px;
+
+  width: 44px;
+
+}
+
+.info-block .contact-text {
+  position: relative;
+  display: table-cell;
+  text-align: left;
+  vertical-align: middle;
+  padding-left: 30px;
+}
+
+
+.contact {
+  color: #3489eb;
+  font-size: 30px;
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .jumbotron {
+    width: 100%;
+  }
 }
