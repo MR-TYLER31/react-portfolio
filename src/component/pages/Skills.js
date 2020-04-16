@@ -12,7 +12,7 @@ function Skills() {
       <div className="container">
         <div className="row mt-5">
           <div className="col-md-4 col-sm-6">
-            <div className="card skills-card">
+            <div className="card skills-card mt-3">
               <div className="card-body text-center">
                 <i className="fab fa-html5 fa-5x"></i>
                 <p className="text-white">HTML5</p>
@@ -21,7 +21,7 @@ function Skills() {
           </div>
 
           <div className="col-md-4 col-sm-6">
-            <div className="card skills-card">
+            <div className="card skills-card mt-3">
               <div className="card-body text-center">
                 <i className="fab fa-css3-alt fa-5x"></i>
                 <p className="text-white">CSS3</p>
@@ -30,7 +30,7 @@ function Skills() {
           </div>
 
           <div className="col-md-4 col-sm-6">
-            <div className="card skills-card">
+            <div className="card skills-card mt-3">
               <div className="card-body text-center">
                 <i className="fab fa-js fa-5x"></i>
                 <p className="text-white">JavaScript</p>
@@ -41,7 +41,7 @@ function Skills() {
 
         <div className="row mt-5">
           <div className="col-md-4 col-sm-6">
-            <div className="card skills-card">
+            <div className="card skills-card mt-3">
               <div className="card-body text-center">
                 <i className="fab fa-node fa-5x"></i>
                 <p className="text-white">Node JS</p>
@@ -50,7 +50,7 @@ function Skills() {
           </div>
 
           <div className="col-md-4 col-sm-6">
-            <div className="card skills-card">
+            <div className="card skills-card mt-3">
               <div className="card-body text-center">
                 <i className="fas fa-database  fa-5x"></i>
                 <p className="text-white">MySql - NoSql</p>
@@ -59,7 +59,7 @@ function Skills() {
           </div>
 
           <div className="col-md-4 col-sm-6">
-            <div className="card skills-card">
+            <div className="card skills-card mt-3">
               <div className="card-body text-center">
                 <i className="fab fa-react fa-5x"></i>
                 <p className="text-white">React JS</p>
