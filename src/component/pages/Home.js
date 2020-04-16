@@ -4,7 +4,7 @@ import Navbar from "../Navbar";
 import Footer from "../Footer";
 import PortfolioBtn from "../PortfolioBtn";
 
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 // window.onload = function() {
 //   var header = document.getElementById("header-section");
@@ -57,7 +57,12 @@ function Home() {
                         }}
                       />
 
-                      <Link to="/portfolio">
+                      <Link
+                        to="/portfolio"
+                        style={{
+                          textDecoration: "none"
+                        }}
+                      >
                         <PortfolioBtn renderAs="button"></PortfolioBtn>
                       </Link>
                     </div>

@@ -1,24 +1,7 @@
 import React, { Component } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 class Navbar extends Component {
-  // componentDidMount() {
-  //   window.addEventListener("scroll", () => {
-  //     const isTop = window.scrollY > 100;
-  //     const nav = document.getElementById("nav");
-  //     if (isTop) {
-  //       nav.classList.add("scrolled");
-  //     } else {
-  //       nav.classList.remove("scrolled");
-  //     }
-  //   });
-  // }
-
-  // handleAnimate() {
-  //   var header = document.getElementById("header-section");
-  //   header.style.marginLeft = "25px";
-  // }
-
   render() {
     return (
       <nav id="nav" className="navbar navbar-expand-lg fixed">
@@ -32,7 +15,7 @@ class Navbar extends Component {
           }
         >
           <span style={{ color: "black" }}>Tyler </span>
-          <span style={{ color: "#6b6e6c" }}>Snyder</span>
+          <span style={{ color: "#b0b0b0" }}>Snyder</span>
         </Link>
         <div className="collapse navbar-collapse" id="navbarCollapse">
           <ul className="navbar-nav ml-auto">
