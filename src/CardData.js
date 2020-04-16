@@ -1,51 +1,39 @@
 const Projects = [
   {
     id: 1,
-    name: "SpongeBob",
-    image: "/react-portfolio/img/display.jpg'",
-    occupation: "Fry Cook",
-    location: "A Pineapple Under the Sea"
+    name: "Employee Directory",
+    image: "/react-portfolio/img/display.PNG",
+    languages: ["HTML", "CSS", "React", "RandomUser.me API"]
   },
   {
     id: 2,
-    name: "Mr. Krabs",
-    image:
-      "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
-    occupation: "Restaurant Owner",
-    location: "A Giant Anchor"
+    name: "Recreational Sports League",
+    image: "/react-portfolio/img/project2.png"
   },
   {
     id: 3,
-    name: "Squidward",
-    image:
-      "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
-    occupation: "Cashier",
-    location: "An Easter Island Head"
+    name: "Workout Plan",
+    image: "/react-portfolio/img/workout.png",
+    occupation: "Cashier"
   },
   {
     id: 4,
-    name: "Dexter",
-    image:
-      "https://s-media-cache-ak0.pinimg.com/originals/fe/32/49/fe32495d45283cd6860ae122f0aeaad9.png",
-    occupation: "Boy Genius",
-    location: "A Secret Laboratory"
+    name: "Eat-Da-Burgers",
+    image: "/react-portfolio/img/burger.png",
+    occupation: "Boy Genius"
   },
   {
     id: 5,
-    name: "Courage",
-    image:
-      "https://vignette4.wikia.nocookie.net/vsbattles/images/3/39/Courage-0.png/revision/latest?cb=20160719055423",
-    occupation: "A Cowardly Dog",
-    location: "Nowhere, Kansas"
+    name: "Event Hub",
+    image: "/react-portfolio/img/events.png",
+    occupation: "A Cowardly Dog"
   },
 
   {
     id: 6,
     name: "Courage",
-    image:
-      "https://vignette4.wikia.nocookie.net/vsbattles/images/3/39/Courage-0.png/revision/latest?cb=20160719055423",
-    occupation: "A Cowardly Dog",
-    location: "Nowhere, Kansas"
+    image: "/react-portfolio/img/weather.png",
+    occupation: "A Cowardly Dog"
   }
 ];
 export default Projects;

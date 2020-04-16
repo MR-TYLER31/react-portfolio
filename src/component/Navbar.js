@@ -44,10 +44,13 @@ class Navbar extends Component {
               </Link>
             </li>
             <li className="nav-item">
+              {/* <a href="/resume.pdf" target="_blank">
+                Resume
+              </a> */}
               <Link
-                to="/resume"
+                to="/resume.pdf"
                 className={
-                  window.location.pathname === "/resume"
+                  window.location.pathname === "/resume.pdf"
                     ? "nav-link active"
                     : "nav-link"
                 }

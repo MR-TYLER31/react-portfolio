@@ -12,20 +12,23 @@ function Portfolio() {
       <div className="container">
         <div className="row mt-5">
           {Projects.map(project => (
-            <div className="col-md-4 col-sm-6">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">{project.name}</h5>
-                  <img src={project.image} class="card-img-top" alt="..." />
-                  <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <a href="#" class="card-link">
+            <div className="col-md-4 col-sm-12">
+              <div className="card project-card mt-3">
+                <img
+                  src={project.image}
+                  className="card-img-top img-fluid"
+                  alt="..."
+                />
+                <div className="card-body">
+                  <h5 className="card-title">{project.name}</h5>
+
+                  <p className="card-text lead">Languages and Tools</p>
+                  <p>{project.languages}</p>
+
+                  <a href="#" className="card-link">
                     Card link
                   </a>
-                  <a href="#" class="card-link">
+                  <a href="#" className="card-link">
                     Another link
                   </a>
                 </div>
