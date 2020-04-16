@@ -13,7 +13,7 @@ function App() {
         <Route exact path="/skills" component={Skills} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/contact" component={Contact} />
-        {/* <Route exact path="/contact" component={Jumbotron} />  */}
+        <Route exact path="/resume" />
       </div>
     </Router>
   );

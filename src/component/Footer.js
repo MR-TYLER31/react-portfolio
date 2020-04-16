@@ -5,17 +5,20 @@ function Footer() {
     <div className="footer-container mt-5">
       <ul className="social-list">
         <li>
-          <a href="https://github.com/MR-TYLER31">
+          <a href="https://github.com/MR-TYLER31" target="_blank">
             <i className="fab fa-github social"></i>
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/tyler-snyder-b6484313a/">
+          <a
+            href="https://www.linkedin.com/in/tyler-snyder-b6484313a/"
+            target="_blank"
+          >
             <i className="fab fa-linkedin-in social"></i>
           </a>
         </li>
         <li>
-          <a href="https://twitter.com/Tsnyder406">
+          <a href="https://twitter.com/Tsnyder406" target="_blank">
             <i className="fab fa-twitter social"></i>
           </a>
         </li>

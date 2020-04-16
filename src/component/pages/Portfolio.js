@@ -13,7 +13,7 @@ function Portfolio() {
         <div className="row mt-5">
           {Projects.map(project => (
             <div className="col-md-4 col-sm-12">
-              <div className="card project-card mt-3">
+              <div className="card project-card dtl24 mt-3">
                 <img
                   src={project.image}
                   className="card-img-top img-fluid"
@@ -21,16 +21,20 @@ function Portfolio() {
                 />
                 <div className="card-body">
                   <h5 className="card-title">{project.name}</h5>
+                  <p>{project.description}</p>
 
-                  <p className="card-text lead">Languages and Tools</p>
-                  <p>{project.languages}</p>
-
-                  <a href="#" className="card-link">
-                    Card link
-                  </a>
-                  <a href="#" className="card-link">
-                    Another link
-                  </a>
+                  <div className="card-btn dtl">
+                    <a href={project.site} target="_blank" className="btn top">
+                      Site
+                    </a>
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      className="btn bottom"
+                    >
+                      Github
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>

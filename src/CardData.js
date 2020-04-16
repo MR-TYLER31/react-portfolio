@@ -3,37 +3,45 @@ const Projects = [
     id: 1,
     name: "Employee Directory",
     image: "/react-portfolio/img/display.PNG",
-    languages: ["HTML", "CSS", "React", "RandomUser.me API"]
+    description:
+      "Be able to find all your employees with ease. Users can search or sort through the table.",
+    site: "https://mr-tyler31.github.io/company-directory/",
+    github: "https://github.com/MR-TYLER31/company-directory/tree/master"
   },
   {
     id: 2,
     name: "Recreational Sports League",
-    image: "/react-portfolio/img/project2.png"
+    image: "/react-portfolio/img/project2.png",
+    description:
+      "Users can create, join and manage recreational sports leagues",
+    site: "",
+    github: ""
   },
   {
     id: 3,
     name: "Workout Plan",
     image: "/react-portfolio/img/workout.png",
-    occupation: "Cashier"
+    description: "As a user you can create a workout plan"
   },
   {
     id: 4,
     name: "Eat-Da-Burgers",
     image: "/react-portfolio/img/burger.png",
-    occupation: "Boy Genius"
+    description: "Add burgers to the menue that you would like to eat"
   },
   {
     id: 5,
     name: "Event Hub",
     image: "/react-portfolio/img/events.png",
-    occupation: "A Cowardly Dog"
+    description: "Find out when the next events will be"
   },
 
   {
     id: 6,
-    name: "Courage",
+    name: "Weather App",
     image: "/react-portfolio/img/weather.png",
-    occupation: "A Cowardly Dog"
+    description:
+      "Take a look at todays weather by searching cities. Find out the 5 day forecast."
   }
 ];
 export default Projects;
