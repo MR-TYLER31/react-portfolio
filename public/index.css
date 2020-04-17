@@ -8,7 +8,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   /* height: 150vh; */
   /* background-color: #3489eb; */
-  background-image: url('/react-portfolio/img/cover.jpg');
+  background-image: url("/react-portfolio/img/cover.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: top;
@@ -41,11 +41,11 @@ body {
   margin-right: 30px;
 } */
 
-.scrolled {
+/* .scrolled {
   position: fixed;
   background-color: white;
   box-shadow: 0px 4px 7px #777;
-}
+} */
 
 /* #header-section {
   margin-top: 20%;
@@ -73,13 +73,11 @@ body {
   border: 3px solid #3489eb;
   margin: 0 auto;
   width: 20%;
-
 }
 
 #portfolio-btn:hover {
   background-color: white;
   color: #3489eb;
-
 }
 
 .card-img-top {
@@ -127,7 +125,6 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
 /* .project-card {
   background-color: white;
   color: black;
@@ -157,8 +154,6 @@ i {
 
 .footer-container {
   border-top: 2px solid #d9dedc;
-
-
 }
 
 .contact-row {
@@ -168,7 +163,7 @@ i {
 
 .col-inner {
   display: block;
-  align-items: center
+  align-items: center;
 }
 
 .info-block {
@@ -186,7 +181,6 @@ i {
   padding: 0 10px 5px 0px;
   text-align: center;
   width: 44px;
-
 }
 
 .info-block .contact-text {
@@ -197,19 +191,17 @@ i {
   padding-left: 30px;
 }
 
-
 .contact {
   color: #3489eb;
   font-size: 30px;
-
 }
 
 @media only screen and (max-width: 600px) {
   .jumbotron {
     width: 100%;
+    /* margin-right: -20px; */
   }
 }
-
 
 .dtl24 {
   width: 100%;
@@ -308,4 +300,56 @@ i {
 .dtl24:hover .dtl {
   visibility: visible;
   opacity: 1;
+}
+
+@media only screen and (max-width: 1500px) {
+  #portfolio-btn {
+    display: block;
+    border-radius: 30px;
+    /* padding: 5px 40px; */
+    border: 3px solid #3489eb;
+    margin: 0 auto;
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #portfolio-btn {
+    display: block;
+    border-radius: 30px;
+    /* padding: 5px 40px; */
+    border: 3px solid #3489eb;
+    margin: 0 auto;
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #portfolio-btn {
+    display: block;
+    border-radius: 30px;
+    /* padding: 5px 40px; */
+    border: 3px solid #3489eb;
+    margin: 0 auto;
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .info-block .contact-text {
+    font-size: 15px;
+    padding-left: 0px;
+  }
+
+  .container-contact {
+    margin-left: -30px;
+  }
+
+  #portfolio-btn {
+    display: block;
+    border-radius: 30px;
+    /* padding: 5px 40px; */
+    border: 3px solid #3489eb;
+    margin: 0 auto;
+    width: 75%;
+  }
 }

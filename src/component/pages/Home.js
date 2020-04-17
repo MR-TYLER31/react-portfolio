@@ -30,8 +30,8 @@ function Home() {
             <Navbar />
             <div className="container">
               <Spring
-                from={{ opacity: 0, marginTop: 100 }}
-                to={{ opacity: 1, marginTop: 200 }}
+                from={{ opacity: 0, marginTop: 50 }}
+                to={{ opacity: 1, marginTop: 150 }}
                 config={{ delay: 1000, duration: 1000 }}
               >
                 {props => (
