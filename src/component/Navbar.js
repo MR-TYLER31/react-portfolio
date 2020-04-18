@@ -27,7 +27,7 @@ class Navbar extends Component {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon">
+          <span>
             <i className="fas fa-bars fa-lg" style={{ color: "#3489eb" }}></i>
           </span>
         </button>
