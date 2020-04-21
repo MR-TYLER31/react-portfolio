@@ -55,6 +55,7 @@ const Projects = [
     image: "/react-portfolio/img/weather.png",
     description:
       "Take a look at todays weather by searching cities. Find out the 5 day forecast.",
+    built: "HTML, CSS, Bootstrap, JavaScript, JQuery, Open Weather API",
     site: "https://mr-tyler31.github.io/Whats-The-Weather/",
     github: "https://github.com/MR-TYLER31/Whats-The-Weather"
   }
