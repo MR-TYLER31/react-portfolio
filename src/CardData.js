@@ -1,6 +1,16 @@
 const Projects = [
   {
     id: 1,
+    name: "Trade and Play",
+    image: "/react-portfolio/img/tradenplay.PNG",
+    description:
+      "Trade and play brings the excitement of sports card collecting onto the web. Collect cards by drafting players.",
+    built: "React, Node, Express, MongoDB",
+    site: "https://mr-tyler31.github.io/company-directory/",
+    github: "https://github.com/MR-TYLER31/company-directory/tree/master"
+  },
+  {
+    id: 2,
     name: "Employee Directory",
     image: "/react-portfolio/img/display.PNG",
     description:
@@ -10,7 +20,7 @@ const Projects = [
     github: "https://github.com/MR-TYLER31/company-directory/tree/master"
   },
   {
-    id: 2,
+    id: 3,
     name: "Recreational Sports League",
     image: "/react-portfolio/img/project2.png",
     description:
@@ -21,7 +31,7 @@ const Projects = [
     github: "https://github.com/seanianking/SoggyBottomboys-Project2"
   },
   {
-    id: 3,
+    id: 4,
     name: "Workout Plan",
     image: "/react-portfolio/img/workout.png",
     description: "As a user you can create a workout plan",
@@ -30,7 +40,7 @@ const Projects = [
     github: "https://github.com/MR-TYLER31/Tylers-Exercise-Tracker"
   },
   {
-    id: 4,
+    id: 5,
     name: "Eat-Da-Burgers",
     image: "/react-portfolio/img/burger.png",
     description: "Add burgers to the menue that you would like to eat",
@@ -39,7 +49,7 @@ const Projects = [
     github: "https://github.com/MR-TYLER31/Thats-A-Tasty-Burger"
   },
   {
-    id: 5,
+    id: 6,
     name: "Event Hub",
     image: "/react-portfolio/img/events.png",
     description: "Find out when the next events will be",
@@ -50,7 +60,7 @@ const Projects = [
   },
 
   {
-    id: 6,
+    id: 7,
     name: "Weather App",
     image: "/react-portfolio/img/weather.png",
     description:
