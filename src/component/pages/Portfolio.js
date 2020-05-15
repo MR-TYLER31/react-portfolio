@@ -3,11 +3,6 @@ import Navbar from "../Navbar";
 import Footer from "../Footer";
 import Projects from "../../CardData";
 
-// {
-//   Projects.map(project => {
-//     console.log(project);
-//   });
-// }
 function Portfolio() {
   return (
     <div className="jumbotron">
