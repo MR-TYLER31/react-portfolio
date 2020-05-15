@@ -6,8 +6,8 @@ const Projects = [
     description:
       "Trade and play brings the excitement of sports card collecting onto the web. Collect cards by drafting players.",
     built: "React, Node, Express, MongoDB",
-    site: "https://mr-tyler31.github.io/company-directory/",
-    github: "https://github.com/MR-TYLER31/company-directory/tree/master"
+    site: "https://trade-and-play.herokuapp.com/",
+    github: "https://github.com/Arnette110/Trade-and-Play"
   },
   {
     id: 2,
