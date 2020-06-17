@@ -212,10 +212,11 @@ body {
   color: black;
 } */
 
-i {
-  /* background-color: #3489eb; */
+.skills-icon {
+  font-size: 80px;
   color: white;
 }
+
 
 .social-list {
   display: flex;
